@@ -3,7 +3,7 @@ import random
 
 # data
 # adres pliku zrodlowego powinien byc zmieniony w zaleznosci od jego lokalizacji
-source = r'C:\Users\Konrad\PycharmProjects\Harmonogramowanie-produkcji\data.csv'
+# source =
 data_source = pd.read_csv(source, sep=';', index_col=0)
 
 list_p = []
